@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Byfinal</string>
+
+    <string name="title_home">@string/app_name</string>
+    <string name="title_setting">Setting</string>
+
+    <string name="list_item_default_content">hello android, android is good</string>
+
+    <string name="tabbar_msg">Home</string>
+    <string name="tabbar_contacts">Contacts</string>
+    <string name="tabbar_discovery">Discovery</string>
+    <string name="tabbar_me">Me</string>
+
+    <string name="splash_desc">splash</string>
+
+</resources>

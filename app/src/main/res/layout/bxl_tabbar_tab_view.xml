@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/bxl_tabbar_tab_icon"
+            android:scaleType="center"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/bxl_tabbar_tab_icon_hl"
+            android:scaleType="center"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/bxl_tabbar_tab_label"
+            android:textSize="@dimen/bxl_tabbar_label_font_size"
+            android:textColor="@color/bxl_tabbar_label"
+            android:layout_marginTop="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/bxl_tabbar_tab_label_hl"
+            android:textSize="@dimen/bxl_tabbar_label_font_size"
+            android:textColor="@color/bxl_tabbar_label_hl"
+            android:layout_marginTop="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+</merge>

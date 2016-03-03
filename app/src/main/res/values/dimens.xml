@@ -1,0 +1,18 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- toolbar -->
+    <dimen name="bxl_toolbar_height">48dp</dimen>
+    <dimen name="bxl_toolbar_title_font_size">16sp</dimen>
+    <!-- tabbar -->
+    <dimen name="bxl_tabbar_height">54dp</dimen>
+    <dimen name="bxl_tabbar_label_font_size">10sp</dimen>
+
+    <dimen name="list_item_height">64dp</dimen>
+    <dimen name="list_title_font_size">14sp</dimen>
+    <dimen name="list_content_font_size">12sp</dimen>
+    <dimen name="list_date_font_size">10sp</dimen>
+
+</resources>

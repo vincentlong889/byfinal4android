@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/bxl_tabbar_content"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bxl_tabbar_height" />
+
+    <View
+        android:id="@+id/bxl_tabbar_top_line"
+        android:background="@color/bxl_tabbar_top_seperator"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="1px" />
+
+</merge>
