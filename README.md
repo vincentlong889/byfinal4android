@@ -1,4 +1,7 @@
 # byfinal4android
+
+[![Build Status](https://travis-ci.org/vincentlong889/byfinal4android.svg?branch=master)](https://travis-ci.org/vincentlong889/byfinal4android)
+
 Android应用基础框架，主要包含下面几个功能：
 
 * **欢迎页**：应用启动页，展示app品牌
