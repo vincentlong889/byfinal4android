@@ -1,6 +1,7 @@
 # byfinal4android
 
 [![Build Status](https://travis-ci.org/vincentlong889/byfinal4android.svg?branch=master)](https://travis-ci.org/vincentlong889/byfinal4android)
+[![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://raw.githubusercontent.com/vincentlong889/byfinal4android/master/LICENSE)
 
 Android应用基础框架，主要包含下面几个功能：
 
