@@ -5,6 +5,12 @@ Android应用基础框架，主要包含下面几个功能：
 * **基于tab的主页**：基于tab形式的首页设计
 * **页面边缘滑动后退**：仿iOS的页面边缘滑动后退效果
 
+<p align="center">
+  <img src="01.gif" alt="splash" height="400" width="240"/>
+  <img src="02.gif" alt="splash" height="400" width="240"/>
+  <img src="03.gif" alt="splash" height="400" width="240"/>
+</p>
+
 ## 欢迎页
 <p align="center">
   <img src="01.gif" alt="splash" height="400" width="240"/>
