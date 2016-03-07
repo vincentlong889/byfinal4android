@@ -5,6 +5,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
+import android.graphics.Color;
+import android.graphics.PorterDuff;
 import android.view.View;
 
 import com.byfinal.demo.byfinal4android.R;
@@ -22,7 +24,7 @@ public class IntentUtils {
     private LinkedHashMap<String, BitmapItem> mCachedBitmaps;
 
     private IntentUtils() {
-        mCachedBitmaps = new LinkedHashMap<String, BitmapItem>(0, 0.75f, true);
+        mCachedBitmaps = new LinkedHashMap<>(0, 0.75f, true);
     }
 
     public void clear() {
@@ -54,14 +56,14 @@ public class IntentUtils {
             if (null != reuseItem) {
                 return reuseItem;
             } else {
-                return crateItem(width, height);
+                return createItem(width, height);
             }
         } else {
-            return crateItem(width, height);
+            return createItem(width, height);
         }
     }
 
-    private BitmapItem crateItem(int width, int height) {
+    private BitmapItem createItem(int width, int height) {
         BitmapItem item = BitmapItem.create(width, height);
         String id = "id_" + System.currentTimeMillis();
         item.setId(id);
@@ -87,7 +89,9 @@ public class IntentUtils {
         v.postDelayed(new Runnable() {
             @Override
             public void run() {
-                v.draw(new Canvas(bitmap));
+                Canvas canvas = new Canvas(bitmap);
+                canvas.drawColor(Color.TRANSPARENT, PorterDuff.Mode.CLEAR);
+                v.draw(canvas);
                 context.startActivity(intent);
                 ((Activity) context).overridePendingTransition(R.anim.open_enter, R.anim.open_exit);
             }
