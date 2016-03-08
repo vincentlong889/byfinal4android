@@ -6,6 +6,7 @@
     android:orientation="vertical">
 
     <TextView
+        android:id="@+id/tv_contacts"
         android:text="@string/tabbar_contacts"
         android:gravity="center_horizontal"
         android:textSize="24dp"

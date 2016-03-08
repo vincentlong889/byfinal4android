@@ -17,8 +17,8 @@ public class SettingActivity extends SlidingActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_setting);
-        setTitle(getResources().getString(R.string.title_setting));
+        setContentView(R.layout.activity_setting, true);
+        //setTitle(getResources().getString(R.string.title_setting));
 
         findViewById(R.id.setting_tv).setOnClickListener(new View.OnClickListener() {
             @Override

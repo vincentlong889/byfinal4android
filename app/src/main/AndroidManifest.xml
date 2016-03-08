@@ -35,6 +35,11 @@
             android:theme="@style/AppTheme.NoActionBar"
             android:screenOrientation="portrait"
             android:name=".setting.SettingActivity" />
+        <activity
+            android:label="@string/title_setting"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait"
+            android:name=".home.activity.TestActivity" />
     </application>
 
 </manifest>
